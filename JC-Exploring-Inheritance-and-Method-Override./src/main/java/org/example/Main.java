@@ -49,6 +49,7 @@ public class Main {
 //        myAC.announceDamage(100);
 
         //4. Inheriting Variables & Access Rules
-
+        CheckingAccount myChecking = new CheckingAccount(100.0);
+        myChecking.deductMonthlyFee();
     }
 }
