@@ -13,12 +13,18 @@ public class Main {
 //        myBike.honk();
 //        System.out.print("Bicycle says: ");
 //        myBike.ringBell();
+//
+//        //2. Abstract Classes: Defining a Template
+//        Circle myCircle = new Circle();
+//        System.out.println(myCircle.display());
+//
+//        Rectangle myRectangle = new Rectangle();
+//        System.out.println(myRectangle.display());
+//
+//        Dog myDog = new Dog();
+//        myDog.breathe();
+//        myDog.makeSound();
 
-        //2. Abstract Classes: Defining a Template
-        Circle myCircle = new Circle();
-        System.out.println(myCircle.display());
-
-        Rectangle myRectangle = new Rectangle();
-        System.out.println(myRectangle.display());
+        
     }
 }
