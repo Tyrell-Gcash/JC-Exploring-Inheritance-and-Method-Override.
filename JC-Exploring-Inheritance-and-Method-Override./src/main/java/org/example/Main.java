@@ -25,6 +25,6 @@ public class Main {
 //        myDog.breathe();
 //        myDog.makeSound();
 
-        
+        //3. Method Overriding: Providing a New Implementation
     }
 }
