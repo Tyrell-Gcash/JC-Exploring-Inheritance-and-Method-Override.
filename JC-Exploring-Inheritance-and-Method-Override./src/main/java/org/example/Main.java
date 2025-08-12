@@ -25,7 +25,7 @@ public class Main {
 //        myDog.breathe();
 //        myDog.makeSound();
 
-        //3. Method Overriding: Providing a New Implementation
+//        //3. Method Overriding: Providing a New Implementation
 //        Editor myEditor = new Editor();
 //        CodeEditor myCodeEditor = new CodeEditor();
 //        Editor polyEditor = new CodeEditor(); // Polymorphism
@@ -38,14 +38,17 @@ public class Main {
 //
 //        System.out.println("\n--- Polymorphic Editor ---");
 //        polyEditor.openFile();
+//
+//        GameCharacter myGC = new GameCharacter();
+//        ArmoredCharacter myAC = new ArmoredCharacter();
+//
+//        myGC.takeDamage(100);
+//        myGC.announceDamage(100);
+//
+//        myAC.takeDamage(100);
+//        myAC.announceDamage(100);
 
-        GameCharacter myGC = new GameCharacter();
-        ArmoredCharacter myAC = new ArmoredCharacter();
+        //4. Inheriting Variables & Access Rules
 
-        myGC.takeDamage(100);
-        myGC.announceDamage(100);
-
-        myAC.takeDamage(100);
-        myAC.announceDamage(100);
     }
 }
